@@ -1,0 +1,5 @@
+<!--components/add/add.wxml-->
+
+<view wx-if="{{!added}}" class="addButton" catchtap="onTap" style="background:{{color}};box-shadow:{{boxshadow}};">
+  <image class="addImg" src="{{imgSrc}}"></image>
+</view>

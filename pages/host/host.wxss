@@ -1,0 +1,146 @@
+page {
+  height: 80%;
+  width: 100%;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  margin-top: 70%;
+  border-radius: 20rpx;
+  background: #fff;
+}
+
+.infoButton {
+  box-sizing: border-box;
+  position: relative;
+  width: 47%;
+  height: 90%;
+  margin: auto;
+  padding: 10rpx;
+  background: #fff;
+  border-radius: 20rpx 0 0 20rpx;
+  box-shadow: 0px 3px 6px #f2edf0;
+}
+
+.infoButton:hover {
+  animation: touch 1s ease;
+}
+
+.infoImg {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.infoTxt {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  color: #9c9292;
+  font-size: 35rpx;
+}
+
+.goButton {
+  box-sizing: border-box;
+  position: relative;
+  width: 47%;
+  height: 90%;
+  margin: auto;
+  background: #fff;
+  border-radius: 0 20rpx 20rpx 0;
+  box-shadow: 0px 3px 6px #f2edf0;
+}
+
+.goButton:hover {
+  animation: touch 1s ease;
+}
+
+.cardList {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10%;
+  width: 90%;
+  height: 240rpx;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  padding: 10rpx 20rpx;
+  border-radius: 20rpx;
+  background: #fada1b;
+  box-shadow: 0px 3px 6px #f2edf0;
+}
+
+.card:hover {
+  animation: touch 0.8s ease;
+}
+
+.cardTxt {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.cardImg {
+  position: absolute;
+  width: 70rpx;
+  height: 70rpx;
+  right: 15%;
+  bottom: 15%;
+}
+
+.billBoard {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  padding-bottom: 36%;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 20rpx;
+  background: #eee;
+  box-shadow: 0px 3px 6px #f2edf0;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(https://1-1259298322.cos.ap-chengdu.myqcloud.com/board1.png);
+}
+.billBoard:hover{
+  animation: touch 0.7s ease;
+}
+.askBoard {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 100rpx;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 20rpx;
+  background: #eee;
+  box-shadow: 0px 3px 6px #f2edf0;
+}
+
+@keyframes touch {
+  0% {
+    transform: scale(1.0);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

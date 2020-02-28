@@ -1,0 +1,70 @@
+/* pages/grade/grade.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 40%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  height: 260rpx;
+  margin-top: 25%;
+  padding: 6%;
+  background: #2bacea;
+  color: #fff;
+}
+
+.section__title {
+  font-size: 40rpx;
+  margin: 10rpx 0rpx;
+}
+
+.picker {
+  font-size: 40rpx;
+}
+
+.typeList {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  height: 260rpx;
+  padding: 3%;
+  margin-top: 25%;
+  background: #2bacea;
+  color: #fff;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+.color-line {
+  box-sizing: border-box;
+  margin-top: 0.8%;
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 6%;
+  border-radius: 50%;
+  border: 7rpx solid #fff;
+}
+
+.box {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,14 @@
+<!--components/popout/popout.wxml-->
+<view class="popout" catchtouchmove="ture" style="animation:{{ani}}">
+  <view class="title">{{title}}</view>
+  <view class="content">{{content1}}</view>
+  <input class="input" bindinput="school"></input>
+  <view class="content">{{content2}}</view>
+  <input class="input" bindinput="major"></input>
+  <view class="content">{{content3}}</view>
+  <input class="input" bindinput="phone"></input>
+  <view class="finish" catchtap="finishTap">
+    <image class="ok" src="../../images/ok.png"></image>
+  </view>
+</view>
+<view wx:if="{{back}}" catchtap="backTap" catchtouchmove="ture" class="back" style="width:{{backWidth}};height:{{backHeight}};"></view>

@@ -1,0 +1,20 @@
+<header titleTxt="找校友" hideHeader="{{hideHeader}}" boxshadow="" back="true" background="#5084c3"></header>
+<add bindcustomevent="addTap"></add>
+<view class="space"></view>
+<search wx-if="{{show}}" bindsendEvent="receiveInput"></search>
+<view wx-if="{{!show}}" style="margin-top:5%;height: 70rpx;"></view>
+<popout wx-if="{{formShow}}" backWidth="{{backWidth}}" backHeight="{{backHeight}}" bindcustomevent="finishTap" back="{{!show}}"></popout>
+<view wx:for="{{cardList}}" wx:key="item" class="list-container">
+  <view class="list">
+    <view class="avatar">
+      <open-data type="userAvatarUrl" class='img'></open-data>
+    </view>
+    <view class="info-container">
+      <view class="name">你是我的小呀小苹果</view>
+      <view class="school">{{item.school}}</view>
+      <view class="label-container">
+        <view class="label">{{item.major}}</view>
+      </view>
+    </view>
+  </view>
+</view>

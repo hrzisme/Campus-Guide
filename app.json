@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/film/film",
+    "pages/host/host",
+    "pages/scene/scene",
+    "pages/test/test",
+    "components/popout/popout",
+    "components/search/search",
+    "components/add/add",
+    "pages/grade/grade",
+    "pages/map/map",
+    "pages/info/info",
+    "pages/fair/fair",
+    "components/header/header",
+    "components/ec-canvas/ec-canvas"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

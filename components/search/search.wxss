@@ -1,0 +1,29 @@
+/* components/search/search.wxss */
+.search {
+  position: relative;
+  width: 90%;
+  height: 70rpx;
+  margin-top: 5%;
+  margin-left: 5%;
+  box-sizing: border-box;
+  border-radius: 40rpx;
+  background: #f5f6f9;
+  border: solid 1rpx #f5f6f9;
+}
+
+.searchImg {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  margin-top: -20rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.input {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  margin-top: -20rpx;
+  font-size:30rpx;
+}

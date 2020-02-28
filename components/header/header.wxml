@@ -1,0 +1,7 @@
+<view class="header {{hideHeader ? '' : 'hide'}}" style="background:{{background}} ;box-shadow:{{boxshadow}}">
+  <image class="left" src="../../images/left.png" wx-if="{{back}}" catchtap="backTap"></image>
+  <view class="title" catchtap="backTap">{{titleTxt}}</view>
+  <view class="img-container" wx-if = "{{showAvatar}}">
+    <open-data type="userAvatarUrl" class="img" ></open-data>
+  </view>
+</view>

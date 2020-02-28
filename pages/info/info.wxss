@@ -1,0 +1,77 @@
+page{
+  height: 80%;
+  width: 100%;
+}
+
+.buttonList {
+  margin: auto;
+  margin-top: 70%;
+  overflow: hidden;
+  width: 80%;
+  height: 120rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.goButton {
+  box-sizing: border-box;
+  background: #fff;
+  margin: auto;
+  border-radius:20rpx;
+  width: 80%;
+  height: 90%;
+  box-shadow: 0px 3px 6px #f2edf0;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.goButton:hover{
+  animation: touch 1s ease;
+}
+
+.infoImg {
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+.infoTxt {
+  color: #9c9292;
+  font-size: 35rpx;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+.content{
+  box-sizing: border-box;
+  padding: 10%;
+  color: #cdcdcd
+}
+.txt{
+  color: #666;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  font-size: 24rpx;
+}
+
+@keyframes touch {
+  0% {
+    transform: scale(1.0);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

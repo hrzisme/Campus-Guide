@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header": "/components/header/header",
+    "add":"/components/add/add",
+    "search": "/components/search/search",
+    "popout": "/components/popout/popout"
+  }
+}

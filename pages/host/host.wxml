@@ -1,0 +1,30 @@
+<header  titleTxt="海大导览" hideHeader="{{hideHeader}}"></header>
+<view class="buttonList">
+  <view class="infoButton" catchtap="infoTap">
+    <image class="infoImg" src="../../images/info.png"></image>
+    <text class="infoTxt">海大介绍</text> </view>
+  <view class="goButton" catchtap="goTap">
+    <image class="infoImg" src="../../images/position.png"></image>
+    <text class="infoTxt">逛逛海大</text>
+  </view>
+</view>
+<view class="cardList">
+  <view class="card" catchtap="sceneTap">
+    <text class="cardTxt">海大</text>
+    <text class="cardTxt">风光</text>
+    <image class="cardImg" src="../../images/scene.png"></image>
+  </view>
+  <view class="card">
+    <text class="cardTxt">海大</text>
+    <text class="cardTxt">影讯</text>
+    <image class="cardImg" src="../../images/wenchuang.png"></image>
+  </view>
+  <view class="card" catchtap="gradeTap">
+     <text class="cardTxt">海大</text>
+     <text class="cardTxt">招生</text>
+    <image class="cardImg" src="../../images/history.png"></image>
+  </view>
+</view>
+<view class="billBoard" catchtap="boardTap">
+</view>
+<view class="askBoard"></view>

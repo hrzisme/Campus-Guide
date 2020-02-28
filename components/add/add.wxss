@@ -1,0 +1,62 @@
+/* components/add/add.wxss */
+
+.addButton {
+  position: fixed;
+  bottom:5%;
+  right: 5%;
+  width: 110rpx;
+  height: 110rpx;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 10;
+  animation: add ease-in-out 0.8s;
+}
+.addButton:hover{
+  animation: touch 1s ease forwards;
+}
+.addImg {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  left: 50%;
+  top: 50%;
+  margin-top: -20rpx;
+  margin-left: -20rpx;
+  box-sizing: border-box;
+}
+
+@keyframes add {
+  0% {
+    transform: scale(0);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: scale(1.0);
+    opacity: 1.0;
+  }
+}
+/* 
+@keyframes gone {
+  0% {
+    transform: scale(1.0);
+    opacity: 1.0;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+} */
+
+@keyframes touch {
+  0% {
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,5 @@
+<!--components/search/search.wxml-->
+<view class="search">
+  <image class="searchImg" wx:if="{{show}}" src="../../images/search.png"></image>
+  <input class="input" placeholder="搜索同校同学" placeholder-style="color: #afb2bf;" bindinput="input" confirm-type="search" bindconfirm="sendInput"></input>
+</view>

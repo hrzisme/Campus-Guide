@@ -1,0 +1,20 @@
+<!--pages/grade/grade.wxml-->
+<header titleTxt="海大招生" hideHeader="{{hideHeader}}" boxshadow="" back="true"></header>
+<view class="all">
+  <view class="section">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="section__title">地区选择</view>
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+  </view>
+  <view class="typeList">
+    <view class="type" wx:for="{{typeList}}" wx:key="{{item.id}}">
+      <view class="color-line" style="background:{{item.linecolor}}">
+      </view>{{item.typeTxt}}</view>
+  </view>
+</view>
+<view class="box">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
